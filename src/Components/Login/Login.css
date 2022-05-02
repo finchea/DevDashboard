@@ -1,0 +1,21 @@
+.login {
+  font-family: "Segoe UI";
+  padding-top: 250px;
+}
+
+.buttonContainer {
+  padding-top: 25px;
+}
+
+.authButton {
+  font-family: "Segoe UI";
+  padding: 10px 50px;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.error {
+  color: red;
+}

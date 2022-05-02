@@ -1,0 +1,24 @@
+.footerContainer {
+  width: 100px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerContainer svg {
+}
+
+.arrowClass {
+  cursor: pointer;
+  color: blue;
+}
+
+.arrowClassTwo {
+  cursor: pointer;
+  color: blue;
+}
+
+.disabledArrow {
+  opacity: 0.4;
+  cursor: default;
+}

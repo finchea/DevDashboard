@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive");
+
+.home {
+  margin: 40px 45px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  box-sizing: initial;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.spinnerDiv {
+  position: absolute;
+  top: 215%;
+  width: 100%;
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: auto;
+}
+
+.logoutBtn {
+  font-family: "Segoe UI";
+  font-size: 12.5px;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border-width: 2px;
+  width: 80px;
+  position: absolute;
+  right: 5px;
+  line-height: 18px;
+}
+
+.signature {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 20px;
+  opacity: 0.4;
+  display: flex;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  .home {
+    margin: 20px 25px;
+  }
+  .header {
+    flex-direction: column;
+  }
+
+  .logoutBtn {
+    /* left: 215px;
+    bottom: 105px; */
+    width: 55px;
+    padding: 2.5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 830px) {
+  .logoutBtn {
+    width: 55px;
+    padding: 2.5px;
+  }
+}

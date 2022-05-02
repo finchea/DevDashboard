@@ -1,0 +1,41 @@
+.tableContainer {
+  padding-top: 18px;
+  margin-left: 75px;
+}
+
+.table {
+  border-style: solid;
+  border-width: thin;
+  text-align: left;
+  font-weight: normal;
+  margin-top: 18px;
+  padding: 7px;
+}
+
+.header {
+  font-weight: normal;
+  padding: 7px;
+}
+
+.column {
+  font-weight: normal;
+  padding: 7px;
+}
+
+.greenDot {
+  height: 12.5px;
+  width: 12.5px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 7px;
+}
+
+.redDot {
+  height: 12.5px;
+  width: 12.5px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 7px;
+}

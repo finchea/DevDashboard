@@ -1,0 +1,39 @@
+.pchart {
+  border: 2px solid black;
+  margin-top: 20px;
+  font-size: 12.5px;
+}
+
+.pchartContainer {
+  padding-top: 25px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pspLabel {
+  font-weight: 625;
+  font-size: 18px;
+}
+
+.noData {
+  /* border: 2px solid black; */
+  margin-top: 18px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 525;
+  height: 300;
+  text-align: center;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .pchartContainer {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .pspLabel {
+    text-align: center;
+  }
+}

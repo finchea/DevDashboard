@@ -1,0 +1,71 @@
+.mainview {
+  font-family: "Segoe UI";
+  display: flex;
+  position: relative;
+}
+
+.searchArea {
+}
+
+/* .loadBtn {
+  margin: 10px 12.5px;
+  border: 3px solid grey;
+  border-radius: 7px;
+  color: seagreen;
+  font-weight: 600;
+  padding: 3.5px;
+  display: inline-block;
+  box-shadow: 2px 2px darkgray; 
+}
+
+.disabledBtn {
+  color: grey;
+}
+
+.loading {
+  color: grey;
+} */
+
+.successText {
+  color: blue;
+}
+
+.failureText {
+  color: red;
+  font-weight: bolder;
+}
+
+.sprintItems {
+  font-size: small;
+  align-items: center;
+}
+
+.sprintItemName {
+  margin-top: 20px;
+}
+.sprintItemsInfo {
+  font-size: smaller;
+}
+
+@media screen and (max-width: 440px) {
+  .mainview {
+    flex-direction: column;
+  }
+
+  .loadBtn {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(0%, -50%);
+    margin-top: 2px;
+  }
+}
+
+@media screen and (min-width: 441px) and (max-width: 768px) {
+  .mainview {
+  }
+
+  .loadBtn {
+  }
+}
