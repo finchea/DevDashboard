@@ -1,29 +1,27 @@
-# README #
+# DevDashboard
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A dashboard to display important information for developers such as sprint info, etc.
 
-### What is this repository for? ###
+## Description
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Getting Started
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+### Dependencies
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+### Installing
+
+
+## Authors
+
+Ethan Finch
+
+## Version History
+
+
+## Acknowledgments
+
+ConstructConnect
