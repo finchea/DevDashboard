@@ -4,7 +4,7 @@ A dashboard to display important information for developers such as sprint info,
 
 ## Description
 
-
+Pulls in a bunch of important data displayed in a clean and functional Dashboard.
 
 ## Getting Started
 
